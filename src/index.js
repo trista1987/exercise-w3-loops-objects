@@ -92,10 +92,14 @@ const moreAboutPokemons = [
 
 // 8)
 // Print out all the NAMES of the pokemons in this new array.
+//moreAboutPokemons.forEach(moreAboutPokemon => console.log(moreAboutPokemons))
 
- moreAboutPokemons.forEach(() => {
-  console.log(moreAboutPokemons.name)
-} )
+let pokLen = moreAboutPokemons.length
+for (let i = 0; i < pokLen; i++ ){
+  console.log(moreAboutPokemons[i].name)
+  console.log (`${moreAboutPokemons[i].name} is a ${moreAboutPokemons[i].element} pokemon with ${moreAboutPokemons[i].strength}.` )
+}
+
 // 9)
 // Print out something like
 // 'Bulbasaur is a water pokemon with the strength of 32'
