@@ -96,9 +96,14 @@ const moreAboutPokemons = [
 
 let pokLen = moreAboutPokemons.length
 for (let i = 0; i < pokLen; i++ ){
-  console.log(moreAboutPokemons[i].name)
+  console.log(moreAboutPokemons[i].name) 
   console.log (`${moreAboutPokemons[i].name} is a ${moreAboutPokemons[i].element} pokemon with ${moreAboutPokemons[i].strength}.` )
 }
+
+// for ...of 
+//for (let el of pokemons)
+// forEach()
+
 
 // 9)
 // Print out something like
